@@ -1,0 +1,42 @@
+#nav{
+    background: #57496E;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 68px;
+    color: #FFF !important;
+    z-index: 200;
+
+    a{
+        text-decoration: none;
+        color: #FFF;
+    }
+
+    .nav_link{
+        padding-left: 3%;
+    }
+
+    .nav_link_right{
+        display: flex;
+        width: 20%;
+        height: 100%;
+        padding-right: 50px;
+
+            a{
+            width: 150px;
+            line-height: 68px;
+            text-align: center;
+            }
+
+        :hover{
+            opacity: 50%;
+        }
+        
+        
+    }
+}
+
+
